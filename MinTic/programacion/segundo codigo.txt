@@ -1,0 +1,37 @@
+"""
+
+Suma = 0
+cantidadNumeros = int(
+    input("Por favor, ingrese la cantidad de números a sumar: "))
+
+for n in range(cantidadNumeros):
+    Numero = int(input("Ingrese un número: "))
+    #Suma = Suma + Numero;
+    Suma += Numero
+
+print("El resultado de la suma es: ", Suma)
+
+#Segundo ejercicio
+
+ContadorPares = 0
+SumaPares = 0
+ContadorImpares = 0
+SumaImpares = 0
+
+print("Programa que permite sumar los números pares e impares capturados por teclado")
+
+cantidadNumeros = int(input("Ingrese la cantidad de números a evaluar"))
+
+for n in range(cantidadNumeros):
+    Numero = int(input("Por favor, ingrese un número: "))
+    if Numero % 2 == 0:
+        ContadorPares += 1
+        SumaPares += Numero
+    else:
+        ContadorImpares += 1
+        SumaImpares += Numero
+
+print("La cantidad de números pares es :", ContadorPares)
+print("La cantidad de números impares es: ", ContadorImpares)
+print("La sumatoria de los números pares es: ", SumaPares)
+print("La sumatoria de los números impares es: ", SumaImpares)

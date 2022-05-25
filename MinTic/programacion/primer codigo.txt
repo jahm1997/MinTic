@@ -1,0 +1,9 @@
+print("Programa que permite sumar 2 números introducidos por teclado");
+
+A = int(input("Por favor, ingrese un número y presione la tecla ENTER "));
+
+B = int(input("Por favor, ingrese un número y presione la tecla ENTER "));
+
+Suma = A + B;
+
+print("El resultado de la suma es: ",Suma);
